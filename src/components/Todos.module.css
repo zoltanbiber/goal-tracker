@@ -1,0 +1,54 @@
+.main {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+}
+
+.todosHeader {
+  font-size: 32px;
+  margin: 0 0 10px 0;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.removeIcon {
+  margin-left: 20px;
+  color: inherit;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(to right, rgb(248, 108, 110), rgb(232, 76, 132));
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.textInput {
+  width: 100%;
+  border: 1px solid white;
+  outline: none;
+  font-size: 20px;
+  color: inherit;
+  font-family: inherit;
+  text-align: center;
+  background-color: inherit;
+  height: 40px;
+  border-radius: 10px;
+}
